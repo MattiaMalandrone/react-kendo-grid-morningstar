@@ -33,7 +33,7 @@ body {
   font-family: Roboto, sans-serif;
   overflow: scroll;
 }
-.my-app {
+my-app {
   padding: 0;
 }
 .footer {
