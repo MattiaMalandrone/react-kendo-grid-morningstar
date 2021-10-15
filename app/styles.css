@@ -1,0 +1,43 @@
+.k-appbar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.spacer {
+  padding: 0;
+  background-color: burlywood;
+}
+
+.k-grid-header {
+  padding: 0;
+  z-index: 11;
+  position: sticky;
+  top: 92px;
+}
+
+.k-grouping-row {
+  position: sticky !important;
+  top: 128px;
+  z-index: 20;
+  background-color: white !important;
+}
+
+* {
+  overflow: visible !important;
+  overflow-y: visible !important;
+  overflow-x: visible !important;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  overflow: scroll;
+}
+.my-app {
+  padding: 0;
+}
+.footer {
+  height: 10vh;
+  background-color: brown;
+  color: white;
+}
