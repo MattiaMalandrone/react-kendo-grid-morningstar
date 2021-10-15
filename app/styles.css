@@ -31,10 +31,11 @@
 
 body {
   font-family: Roboto, sans-serif;
-  overflow: scroll;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
 }
 my-app {
-  padding: 0;
+  padding: 0 !important;
 }
 .footer {
   height: 10vh;
